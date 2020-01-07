@@ -1,0 +1,8 @@
+-- Created by Dibbydib (roblox/dibby_dib)
+-- Change "jummpy" for jump power
+-- Change "speedy" for walk speed
+local jummpy = 125
+local speedy = 125
+game:GetService("Players").LocalPlayer.Character.Humanoid.Name = "dibby dib"
+game:GetService("Players").LocalPlayer.Character.dibby dib.WalkSpeed = jummpy
+game:GetService("Players").LocalPlayer.Character.dibby dib.JumpPower = speedy
