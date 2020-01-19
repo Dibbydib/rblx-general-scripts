@@ -252,56 +252,56 @@ BTools.TextSize = 30
 BTools.MouseButton1Down:connect(function()
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
 for index, child in pairs(game:GetService("Workspace"):GetChildren()) do
-  if child.ClassName == "Part" then
-      child.Locked = false
-  end
-  if child.ClassName == "MeshPart" then
-      child.Locked = false
-  end
-  if child.ClassName == "UnionOperation" then
-      child.Locked = false
-  end
-  if child.ClassName == "Model" then
-      for index, chil in pairs(child:GetChildren()) do
-          if chil.ClassName == "Part" then
-              chil.Locked = false
-          end
-          if chil.ClassName == "MeshPart" then
-              chil.Locked = false
-          end
-          if chil.ClassName == "UnionOperation" then
-              chil.Locked = false
-          end
-          if chil.ClassName == "Model" then
-              for index, childe in pairs(chil:GetChildren()) do
-                  if childe.ClassName == "Part" then
-                      childe.Locked = false
-                  end
-                  if childe.ClassName == "MeshPart" then
-                      childe.Locked = false
-                  end
-                  if childe.ClassName == "UnionOperation" then
-                      childe.Locked = false
-                  end
-                  if childe.ClassName == "Model" then
-                      for index, childeo in pairs(childe:GetChildren()) do
-                          if childeo.ClassName == "Part" then
-                              childeo.Locked = false
-                          end
-                          if childeo.ClassName == "MeshPart" then
-                              childeo.Locked = false
-                          end
-                          if childeo.ClassName == "UnionOperation" then
-                              childeo.Locked = false
-                          end
-                          if childeo.ClassName == "Model" then
-                          end
-                      end
-                  end
-              end
-          end
-      end
-  end
+if child.ClassName == "Part" then
+child.Locked = false
+end
+if child.ClassName == "MeshPart" then
+child.Locked = false
+end
+if child.ClassName == "UnionOperation" then
+child.Locked = false
+end
+if child.ClassName == "Model" then
+for index, chil in pairs(child:GetChildren()) do
+if chil.ClassName == "Part" then
+chil.Locked = false
+end
+if chil.ClassName == "MeshPart" then
+chil.Locked = false
+end
+if chil.ClassName == "UnionOperation" then
+chil.Locked = false
+end
+if chil.ClassName == "Model" then
+for index, childe in pairs(chil:GetChildren()) do
+if childe.ClassName == "Part" then
+childe.Locked = false
+end
+if childe.ClassName == "MeshPart" then
+childe.Locked = false
+end
+if childe.ClassName == "UnionOperation" then
+childe.Locked = false
+end
+if childe.ClassName == "Model" then
+for index, childeo in pairs(childe:GetChildren()) do
+if childeo.ClassName == "Part" then
+childeo.Locked = false
+end
+if childeo.ClassName == "MeshPart" then
+childeo.Locked = false
+end
+if childeo.ClassName == "UnionOperation" then
+childeo.Locked = false
+end
+if childeo.ClassName == "Model" then
+end
+end
+end
+end
+end
+end
+end
 end
 c = Instance.new("HopperBin", game:GetService("Players").LocalPlayer.Backpack)
 c.BinType = Enum.BinType.Hammer
@@ -414,4 +414,4 @@ end
 
 bin.Selected:connect(onSelected)
 
-end)
+end
