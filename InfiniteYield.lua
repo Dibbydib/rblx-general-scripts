@@ -1,17 +1,13 @@
 -- You don't have to copy paste all of this!
 -- Just use the code >>  loadstring(game:HttpGet(('https://pastebin.com/raw/tzTXmYf2'),true))()  << (less frequently updated)
-
 if not game:IsLoaded() then
-	local notLoaded = Instance.new("Message",workspace)
-	notLoaded.Text = 'Infinite Yield is waiting for the game to load'
-	game.Loaded:Wait()
-	notLoaded:Destroy()
+local notLoaded = Instance.new("Message",workspace)
+notLoaded.Text = 'Infinite Yield is waiting for the game to load'
+game.Loaded:Wait()
+notLoaded:Destroy()
 end
-
 ver = '2.5.1'
-
 Players = game:GetService("Players")
-
 local Holder = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local Dark = Instance.new("Frame")
