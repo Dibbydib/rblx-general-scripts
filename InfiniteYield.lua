@@ -1,5 +1,5 @@
 -- You don't have to copy paste all of this!
--- Just use the code >>  loadstring(game:HttpGet(('https://pastebin.com/raw/tzTXmYf2'),true))()  << (less frequently updated)
+-- Just use the code >>  loadstring(game:HttpGet(('https://pastebin.com/raw/tzTXmYf2'),true))()  << (less frequently updated, unedited version)
 if not game:IsLoaded() then
 local notLoaded = Instance.new("Message",workspace)
 notLoaded.Text = 'Infinite Yield is waiting for the game to load'
